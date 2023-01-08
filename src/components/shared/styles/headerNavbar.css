@@ -1,0 +1,65 @@
+/* el header navbar*/
+.navbar .fixed {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar nav {
+    background: rgba(243, 227, 4, 0.87);
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__icons{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.icon__only{
+    display: flex;
+    gap: 20px;   
+    flex-direction: row;
+    align-items:center;
+    justify-content:flex-end;
+    border-radius: 15px;
+    border-color: blueviolet;
+}
+
+.icon{
+    transition: transform 200ms ease;
+}
+.icon:hover {
+  transform: scale(1.05);
+}
+
+.title-e{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin: 50px;
+padding: auto;
+font-size: 2rem;
+transition: transform 200ms ease;
+}
+
+.title-e:hover{
+    transform: scale(1.05);
+}
+
+.navbar nav .icon {
+    background: none;
+    border: none;
+    color: var(--text-gray);
+    font-size: 1.4rem;
+    line-height: 0;
+    padding: 14px;
+    text-align: center;
+    width: 15%;
+}
+

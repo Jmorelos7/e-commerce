@@ -1,0 +1,36 @@
+.products-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .input__search{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 50%;
+    border: none;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    height: 39px;
+    font-size: auto;
+    margin: 2px;
+
+  }
+
+  .compnent__input{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(255, 238, 0);
+    height: 150px;
+    margin: 10px;
+    border-radius: 15px;
+  }
+  
