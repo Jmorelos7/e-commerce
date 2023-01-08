@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './styles/SliderImg.css'
+import './styles/sliderImg.css'
 
 const SliderImg = ({ listImgs }) => {
 
